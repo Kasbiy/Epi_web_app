@@ -1,0 +1,39 @@
+{
+  "name": "react-pwa",
+  "version": "2.2.13",
+  "description": "A highly scalable, Progressive Web Application foundation with the best Developer Experience (DX).",
+  "scripts": {
+    "start": "pawjs --env=development start",
+    "build": "ENV_CONFIG_PATH=./.prod.env pawjs --env=production build",
+    "build:demo": "ENV_CONFIG_PATH=./.demo.env pawjs --env=production build",
+    "lint": "pawjs lint",
+    "test": "pawjs --no-cache test"
+  },
+  "author": {
+    "name": "Atyantik Technologies",
+    "email": "admin@atyantik.com",
+    "url": "https://www.atyantik.com/"
+  },
+  "contributors": [
+    {
+      "name": "Tirth Bodawala",
+      "email": "tirthbodawala@atyantik.com",
+      "url": "https://www.atyantik.com/"
+    },
+    {
+      "name": "Ajay Patel",
+      "email": "ajaypatel@atyantik.com",
+      "url": "https://www.atyantik.com/"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@pawjs/pawjs": "^4.0.0-alpha.2",
+    "bulma": "^0.9.3",
+    "cloudinary": "^1.27.1",
+    "cross-fetch": "^3.1.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
