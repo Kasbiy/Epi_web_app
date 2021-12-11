@@ -1,39 +1,49 @@
 {
-  "name": "react-pwa",
-  "version": "2.2.13",
-  "description": "A highly scalable, Progressive Web Application foundation with the best Developer Experience (DX).",
-  "scripts": {
-    "start": "pawjs --env=development start",
-    "build": "ENV_CONFIG_PATH=./.prod.env pawjs --env=production build",
-    "build:demo": "ENV_CONFIG_PATH=./.demo.env pawjs --env=production build",
-    "lint": "pawjs lint",
-    "test": "pawjs --no-cache test"
-  },
-  "author": {
-    "name": "Atyantik Technologies",
-    "email": "admin@atyantik.com",
-    "url": "https://www.atyantik.com/"
-  },
-  "contributors": [
-    {
-      "name": "Tirth Bodawala",
-      "email": "tirthbodawala@atyantik.com",
-      "url": "https://www.atyantik.com/"
-    },
-    {
-      "name": "Ajay Patel",
-      "email": "ajaypatel@atyantik.com",
-      "url": "https://www.atyantik.com/"
-    }
-  ],
-  "license": "MIT",
+  "name": "pwa-instalike",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "@pawjs/pawjs": "^4.0.0-alpha.2",
-    "bulma": "^0.9.3",
-    "cloudinary": "^1.27.1",
-    "cross-fetch": "^3.1.4"
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@mui/icons-material": "^5.2.1",
+    "@mui/material": "^5.2.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "components": "^0.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "5",
+    "react-scripts": "4.0.3",
+    "react-user-avatar": "^1.10.0",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^1.0.1"
   },
-  "devDependencies": {
-    "typescript": "^4.4.2"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

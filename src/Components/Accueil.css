@@ -1,0 +1,16 @@
+.publications {
+    background: white;
+    color: black;
+    margin: 2%;
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid grey;
+    margin-left: 23%;
+}
+
+.contenu {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0;
+  letter-spacing: 0;
+}
